@@ -12,11 +12,10 @@ dirname_training="Training"
 
 dir=""
 
-#dirname= "test6Training\\images"
+dirname= "test6Training\\images"
 #dirname= "archiveLabeled"
 #dirname= "C:\\Malos\\images"
 #dirname= "roboflow\\test\\images"
-dirname= "TrainingIni"
 #https://github.com/mrzaizai2k/VIETNAMESE_LICENSE_PLATE/tree/master/data/image
 #dirname="C:\\PruebasGithub\\License-Plate-Recognition-YOLOv7-and-CNN-main\\License-Plate-Recognition-YOLOv7-and-CNN-main\\data\\test\\images"
 #dirname="C:\\PruebasGithub\\LicensePlateDetector-master\\LicensePlateDetector-master\\output"
@@ -343,16 +342,10 @@ def FindLicenseNumber (gray, x_offset, y_offset,  License, x_resize, y_resize, \
     
     X_resize=x_resize
     Y_resize=y_resize
-    
     print("gray.shape " + str(gray.shape)) 
-    """
     Resize_xfactor=1.5
     Resize_yfactor=1.5
-    """
-   
     
-    Resize_xfactor=1.78
-    Resize_yfactor=1.78
    
     TabLicensesFounded=[]
     ContLicensesFounded=[]
@@ -769,8 +762,6 @@ for i in range (len(imagesComplete)):
             
             x_off=3
             y_off=2
-            
-            
             
             #x_resize=220
             x_resize=215
