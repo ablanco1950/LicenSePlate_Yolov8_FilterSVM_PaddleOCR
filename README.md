@@ -23,6 +23,8 @@ The result is the file with the model.pickle weights (because of its size I cann
 
 GetNumberInternationalLicensePlate_Yolov8_SVMFilters_PaddleOCR_V1.py
 
+Any folder may be tested changing instruction 14, the resultas in LicenseResults.txt file
+
 Comparing with the reference project: https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR you get a lower precision but a considerable reduction in execution time.
 
 The references are identical to those of the project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR:
