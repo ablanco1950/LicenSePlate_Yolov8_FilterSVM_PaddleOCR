@@ -1,5 +1,7 @@
 Project that uses Yolov8 as license plate detector, followed by a filter whose code is obtained by applying a filter code to each of the filters considered in the reference project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR, with which you can recognize that board by paddleOCR and setting an SVM prediction
 
+Download all the files of the project to a folder, unzip the zip files.
+
 All the modules necessary for its execution can be installed, if the programs give a module not found error, by means of a simple pip.
 
 The most important:
