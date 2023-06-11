@@ -31,3 +31,61 @@ Any folder may be tested changing instruction 14, the resultas in LicenseResults
 Comparing with the reference project: https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR you get a lower precision but a considerable reduction in execution time.
 
 The references are identical to those of the project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR:
+
+
+
+References:
+
+https://pypi.org/project/paddleocr/
+
+https://learnopencv.com/ultralytics-yolov8/#How-to-Use-YOLOv8?
+
+https://public.roboflow.com/object-detection/license-plates-us-eu/3
+
+https://docs.ultralytics.com/python/
+
+https://medium.com/@chanon.krittapholchai/build-object-detection-gui-with-yolov8-and-pysimplegui-76d5f5464d6c
+
+https://medium.com/@alimustoofaa/how-to-load-model-yolov8-onnx-cv2-dnn-3e176cde16e6
+
+https://medium.com/adevinta-tech-blog/text-in-image-2-0-improving-ocr-service-with-paddleocr-61614c886f93
+
+https://machinelearningprojects.net/number-plate-detection-using-yolov7/
+
+https://github.com/ablanco1950/LicensePlate_Yolov8_MaxFilters
+
+https://github.com/mrzaizai2k/VIETNAMESE_LICENSE_PLATE
+
+https: //www.doubango.org/webapps/alpr/
+
+Filters:
+
+https://github.com/Saafke/FSRCNN_Tensorflow/tree/master/models ( downloaded module FSRCNN_x4.pb)
+
+https://learnopencv.com/super-resolution-in-opencv/#sec5
+
+https://learnopencv.com/super-resolution-in-opencv/
+
+https://gist.github.com/endolith/334196bac1cac45a4893#
+
+https://stackoverflow.com/questions/46084476/radon-transformation-in-python
+
+https://gist.github.com/endolith/255291#file-parabolic-py
+
+https://learnopencv.com/otsu-thresholding-with-opencv/ 
+
+https://towardsdatascience.com/image-enhancement-techniques-using-opencv-and-python-9191d5c30d45
+
+https://blog.katastros.com/a?ID=01800-4bf623a1-3917-4d54-9b6a-775331ebaf05
+
+https://programmerclick.com/article/89421544914/
+
+https://anishgupta1005.medium.com/building-an-optical-character-recognizer-in-python-bbd09edfe438
+
+https://datasmarts.net/es/como-usar-el-detector-de-puntos-clave-mser-en-opencv/
+
+https://felipemeganha.medium.com/detecting-handwriting-regions-with-opencv-and-python-ff0b1050aa4e
+
+https://github.com/victorgzv/Lighting-correction-with-OpenCV
+
+https://medium.com/@yyuanli19/using-mnist-to-visualize-basic-conv-filtering-95d24679643e
