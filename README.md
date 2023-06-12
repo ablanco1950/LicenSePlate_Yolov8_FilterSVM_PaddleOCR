@@ -14,15 +14,15 @@ yolo must be installed, if not, follow the instructions indicated in: https://le
 
 pip install ultralytics
 
-Are attached, te best.pt file, that allows the license plate detect for yolo,  and FSRCNN that allows the working of the filter with de same name
+Are attached, te best.pt file, that allows the license plate detect for yolo ( may be get from scratch following the steps pinted out in  https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR),  and FSRCNN that allows the working of the filter with de same name
 
 As a previous step, the X_train and the Y_train that the SVM needs are created, the X_Train is the matrix of each image and the Y_train is made based on the code assigned (from 0 to 10) to the first filter with which paddleocr manages to recognize that license plate of car in the reference project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR.
 
-The Crea_Xtrain_Ytrain.py program is attached (its execution is not necessary), whose result after applying it to different image files (the input file is indicated in instruction 15) of renamed image cars with their registration plate is saved in the Training folder , consisting of the image itself and a .txt file with the name of the car's license plate and containing the filter code assigned to that image. This Training file that is attached in .zip format is necessary to download it, like the Test.zip file and unzip them to run:
+The Crea_Xtrain_Ytrain.py program is attached (its execution is not necessary), whose result after applying it to different forders of image files (the input folder is indicated in instruction 15) of renamed image cars with their registration plate is saved in the Training folder , consisting of the image itself and a .txt file with the name of the car's license plate and containing the filter code assigned to that image. This Training file that is attached in .zip format is necessary to download it, like the Test.zip file and unzip them to run:
 
 TrainCodFilterSVM.py
 
-The result is the file with the model.pickle weights (because of its size I cannot upload it to github, but it takes a short time to obtain it) necessary to establish the predictions when executing the program:
+The result is the file with the  weights: model.pickle (because of its size I cannot upload it to github, but it takes a short time to obtain it) necessary to establish the predictions when executing the program:
 
 GetNumberInternationalLicensePlate_Yolov8_SVMFilters_PaddleOCR_V1.py
 
